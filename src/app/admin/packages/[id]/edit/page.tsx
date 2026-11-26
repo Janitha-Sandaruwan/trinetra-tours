@@ -4,6 +4,7 @@ import { updatePackageAction } from '@/actions/packages'
 import { PackageForm } from '@/components/admin/PackageForm'
 
 export const metadata = { title: 'Edit Package | Admin' }
+export const dynamic = 'force-dynamic'
 
 export default async function EditPackagePage({
   params,

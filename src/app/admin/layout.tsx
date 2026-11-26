@@ -2,6 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { logoutAdmin } from '@/actions/auth'
 
+export const dynamic = 'force-dynamic'
+
 const NAV_LINKS = [
   {
     href: '/admin',
